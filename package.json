@@ -6,11 +6,13 @@
   "dependencies": {
     "playwright": "^1.52.0",
     "playwright-core": "^1.52.0",
+    "typescript": "^5.9.3",
     "undici-types": "^6.21.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.24"
+    "@types/node": "^22.15.24",
+    "allure-playwright": "^3.4.1"
   },
   "scripts": {},
   "keywords": [],

@@ -79,4 +79,15 @@ export default defineConfig({
   //   url: 'http://localhost:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+
+  reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
+  use: {
+    headless: true,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+  },
+  
 });

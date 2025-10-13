@@ -10,5 +10,5 @@ test('test', async ({ page, context }) => {
   await page.getByRole('combobox', { name: 'Suche' }).fill('testing');
   await page.locator('iframe[name="a-nhmbdtuicyzi"]').contentFrame().getByRole('checkbox', { name: 'I\'m not a robot' }).click();
 
-  await context.tracing.stop({path: 'traceTest.zip'})
+  await context.tracing.stop({path: 'traceTest.zip', fullPage:true});
 });

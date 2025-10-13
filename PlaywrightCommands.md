@@ -78,3 +78,17 @@ To enable trace while running
         npx playwright test --trace on-first-retry
 
         npx playwright test --trace on-all-retries
+
+To install report using Allure
+
+        npm install -D allure-playwright
+
+        npm install -g allure-commandline
+
+To generate allure results (in json format)
+
+        allure generate allure-results --clean -o allure-report
+
+To view the allure report in human readable
+
+        allure open allure-report
