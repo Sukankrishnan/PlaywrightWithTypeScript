@@ -1,0 +1,1 @@
+locator('#input-email') locator('#input-telephone') locator('#input-password') locator('#input-confirm')

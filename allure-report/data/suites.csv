@@ -1,2 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Oct 13 16:00:39 CEST 2025","Mon Oct 13 16:00:44 CEST 2025","4722","chromium","orangeHRMDemo\loginOrangeHRM.spec.ts","","","","Login to OrangeHRM",""
+"passed","Mon Oct 13 17:03:01 CEST 2025","Mon Oct 13 17:03:09 CEST 2025","7400","webkit","myTest\register.spec.ts","","","","Register new user",""
+"passed","Mon Oct 13 17:03:01 CEST 2025","Mon Oct 13 17:03:11 CEST 2025","9231","firefox","myTest\register.spec.ts","","","","Register new user",""
+"passed","Mon Oct 13 17:03:01 CEST 2025","Mon Oct 13 17:03:08 CEST 2025","7072","chromium","myTest\register.spec.ts","","","","Register new user",""
+"broken","Mon Oct 13 16:32:38 CEST 2025","Mon Oct 13 16:32:46 CEST 2025","7437","chromium","orangeHRMDemo\loginOrangeHRM.spec.ts","","","","Login to OrangeHRM",""

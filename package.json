@@ -1,6 +1,7 @@
 {
   "name": "playwright_typescript",
   "version": "1.0.0",
+  "type": "module",
   "description": "Projects of Playwright with TypeScript.",
   "main": "index.js",
   "dependencies": {
@@ -18,4 +19,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+
 }
