@@ -5,10 +5,10 @@ test('test', async ({ page, context }) => {
 
 
   await page.goto('https://www.google.com/');
-  await page.getByRole('button', { name: 'Alle akzeptierensdasd' }).click();
+  await page.getByRole('button', { name: 'Accept all' }).click();
   await page.getByRole('combobox', { name: 'Sucheqwe' }).click();
   await page.getByRole('combobox', { name: 'Suche' }).fill('testing');
   await page.locator('iframe[name="a-nhmbdtuicyzi"]').contentFrame().getByRole('checkbox', { name: 'I\'m not a robot' }).click();
 
-  await context.tracing.stop({path: 'traceTest.zip', fullPage:true});
+  await context.tracing.stop({ path: 'traceTest.zip' });
 });

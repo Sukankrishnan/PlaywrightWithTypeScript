@@ -92,3 +92,11 @@ To generate allure results (in json format)
 To view the allure report in human readable
 
         allure open allure-report
+
+To install Cucumber
+
+        Install from plugins
+
+        npm i @cucumber/cucumber -D
+
+        npm i ts-node -D

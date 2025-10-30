@@ -11,13 +11,16 @@
     "undici-types": "^6.21.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.24",
-    "allure-playwright": "^3.4.1"
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.18.12",
+    "allure-playwright": "^3.4.1",
+    "ts-node": "^10.9.2"
   },
-  "scripts": {},
+  "scripts": {
+    "test": "cucumber-js test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
-
 }
