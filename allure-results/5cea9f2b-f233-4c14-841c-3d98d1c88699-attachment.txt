@@ -1,0 +1,4 @@
+Database connection set up
+Clear cookies
+Executing test block 1
+Cache removal
