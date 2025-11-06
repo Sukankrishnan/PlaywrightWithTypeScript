@@ -27,8 +27,8 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'],
-    ['list'],
-    ['allure-playwright']
+    // ['list'],
+    // ['allure-playwright']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -39,9 +39,11 @@ export default defineConfig({
 
     trace: 'on-first-retry',
     headless: true,
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
+    screenshot: 'only-on-failure', //on, off, only-on-failure
+    video: 'retain-on-failure', //on, off, retain-on-failure, record-with-video, on-first-retry
   },
+  //grepInvert: [new RegExp("@smoke"), new RegExp("@sanity")], // include tags
+  //grep: [new RegExp("@smoke"), new RegExp("@sanity")], // include tags
 
   /* Configure projects for major browsers */
   projects: [

@@ -100,3 +100,5 @@ To install Cucumber
         npm i @cucumber/cucumber -D
 
         npm i ts-node -D
+
+To comment ctrl+/

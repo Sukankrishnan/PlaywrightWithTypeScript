@@ -1,4 +1,0 @@
-Clear cookies
-Executing test block 2
-Cache removal
-Database connection closed
