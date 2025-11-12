@@ -13,3 +13,7 @@ Tags - Run the tests based on tags. Add below line in playwright config file
     grepInvert: [new RegExp("@smoke")] - Run except smoke tests
 
 Grouping tests - test.describe() makes a group of tests run for before/after hooks.
+
+To read CSV file, install csv parser
+
+    npm i csv-parser
